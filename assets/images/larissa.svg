@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLari" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040b10"/>
+      <stop offset="60%" stop-color="#091720"/>
+      <stop offset="100%" stop-color="#03080c"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgLari)"/>
+  <circle cx="480" cy="190" r="280" fill="url(#cyanGlow)"/>
+
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="800" height="42" fill="#000000" fill-opacity="0.85"/>
+  <line x1="0" y1="42" x2="800" y2="42" stroke="#ffffff" stroke-opacity="0.08"/>
+  <circle cx="24" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="40" cy="21" r="5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="56" cy="21" r="5" fill="#10b981" opacity="0.8"/>
+  <rect x="220" y="10" width="360" height="22" rx="11" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1"/>
+  <text x="400" y="25" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="10.5" text-anchor="middle">🔒 larissamadanatum.com.br</text>
+
+  <!-- Navbar -->
+  <text x="60" y="80" fill="#ffffff" font-family="'Inter', sans-serif" font-size="16" font-weight="800" letter-spacing="2">LARISSA <tspan fill="#38bdf8">MADANATUM</tspan></text>
+  <text x="260" y="78" fill="#a1a1aa" font-family="'Inter', sans-serif" font-size="11">CONSULTORIA</text>
+  <text x="370" y="78" fill="#a1a1aa" font-family="'Inter', sans-serif" font-size="11">MÉTODO</text>
+  <text x="450" y="78" fill="#a1a1aa" font-family="'Inter', sans-serif" font-size="11">DEPOIMENTOS</text>
+  <rect x="630" y="62" width="110" height="28" rx="14" fill="#06b6d4" fill-opacity="0.2" stroke="#06b6d4" stroke-width="1"/>
+  <text x="685" y="80" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="10" font-weight="700" text-anchor="middle">AGENDAR</text>
+
+  <!-- Hero Content -->
+  <g transform="translate(60, 130)">
+    <rect x="0" y="0" width="220" height="24" rx="12" fill="#06b6d4" fill-opacity="0.12" stroke="#06b6d4" stroke-opacity="0.4"/>
+    <text x="14" y="16" fill="#67e8f9" font-family="'Inter', sans-serif" font-size="9" font-weight="700" letter-spacing="1">GESTÃO &amp; ALTA PERFORMANCE</text>
+
+    <text x="0" y="65" fill="#ffffff" font-family="'Inter', sans-serif" font-size="34" font-weight="900" letter-spacing="-1">ESTRATÉGIAS DE</text>
+    <text x="0" y="105" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="34" font-weight="900" letter-spacing="-1">POSICIONAMENTO PREMIUM</text>
+    
+    <text x="0" y="140" fill="#a1a1aa" font-family="'Inter', sans-serif" font-size="13">
+      Mentoria executiva e consultoria de imagem e marca pessoal para líderes do setor corporativo.
+    </text>
+
+    <g transform="translate(0, 170)">
+      <rect x="0" y="0" width="200" height="42" rx="21" fill="url(#cyanGrad)"/>
+      <text x="100" y="26" fill="#04151f" font-family="'Inter', sans-serif" font-size="11" font-weight="800" text-anchor="middle" letter-spacing="0.5">AGENDAR SESSÃO ↗</text>
+    </g>
+  </g>
+
+  <!-- Right frame showcase -->
+  <g transform="translate(490, 125)">
+    <rect x="0" y="0" width="250" height="290" rx="16" fill="#0c1822" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1.5"/>
+    <rect x="20" y="20" width="210" height="150" rx="10" fill="#061017"/>
+
+    <!-- Graph and stats -->
+    <path d="M 35 130 L 80 100 L 130 115 L 195 65" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+    <circle cx="195" cy="65" r="4.5" fill="#ffffff"/>
+    <text x="35" y="45" fill="#67e8f9" font-family="'Inter', sans-serif" font-size="10" font-weight="700">+340% VALUATION DE MARCA</text>
+    <text x="35" y="60" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="8.5">Indicador de percepção de autoridade</text>
+
+    <!-- Mini boxes -->
+    <rect x="20" y="185" width="100" height="42" rx="6" fill="#132635"/>
+    <text x="30" y="205" fill="#38bdf8" font-size="14" font-weight="800">+120</text>
+    <text x="30" y="220" fill="#94a3b8" font-size="8">Líderes Mentoradas</text>
+
+    <rect x="130" y="185" width="100" height="42" rx="6" fill="#132635"/>
+    <text x="140" y="205" fill="#38bdf8" font-size="14" font-weight="800">98%</text>
+    <text x="140" y="220" fill="#94a3b8" font-size="8">Índice de Retenção</text>
+
+    <rect x="20" y="238" width="210" height="32" rx="6" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.3"/>
+    <text x="125" y="258" fill="#bae6fd" font-family="'Inter', sans-serif" font-size="9.5" font-weight="600" text-anchor="middle">Exclusivo para CEOs e Diretoras</text>
+  </g>
+</svg>
